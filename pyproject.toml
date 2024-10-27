@@ -4,13 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Bucky Roberts <buckyroberts@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
 openai = "0.28"
 llama-index = "^0.8.29.post1"
-promptlayer = "^0.4.0"
-pinecone-client = "^2.2.4"
+promptlayer = "^1.0.26"
+pinecone-client = "^5.0.1"
+python-dotenv = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]

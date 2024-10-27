@@ -5,6 +5,10 @@ Install dependencies
 poetry install
 ```
 
+### Rename "modify_me.env" to ".env"
+1. Rename "rename_me.env" to ".env"
+2. Insert the following API keys into .env
+
 ### OpenAI setup
 1. Create an API key at https://platform.openai.com/account/api-keys
 2. Save it as environment variable under `OPENAI_API_KEY`
